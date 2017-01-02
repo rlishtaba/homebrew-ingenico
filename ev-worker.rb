@@ -53,6 +53,8 @@ class EvWorker < Formula
         <string>-l</string>
         <string>#{var}/log/ev-worker/access.log</string>
       </array>
+      <key>RunAtLoad</key>
+      <true/>
       <key>KeepAlive</key>
       <true/>
       <key>ServiceDescription</key>
