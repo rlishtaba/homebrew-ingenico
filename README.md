@@ -2,7 +2,7 @@
 
 ## Adding repo to the Homebrew Library
 
-    $ brew tap rlishtaba/ingenico-homebrew
+    $ brew tap rlishtaba/ingenico
 
 ### Installing EV CI worker node
 
