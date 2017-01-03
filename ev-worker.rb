@@ -1,9 +1,9 @@
 class EvWorker < Formula
   desc 'ev ci worker node'
   homepage 'http://artifactory.evf.us/artifactory'
-  url 'http://artifactory.evf.us/artifactory/automation-tools/bundles/ev-worker/1.9.8/7236e55e.tar.gz'
-  sha256 '08413b464d9ddc1f9af596a5e1c4797351626980d00d90a77e44bd9d9d71d734'
-  version '1.9.8'
+  url 'http://artifactory.evf.us/artifactory/automation-tools/bundles/ev-worker/1.10.0/package-170103005746.tar.gz'
+  sha256 '504d6f743bfab8bc2b55d8349be75d28a6e262b2639b8e0ff81958966a34709d'
+  version '1.10.0'
 
   def install
     ENV.deparallelize
@@ -22,7 +22,7 @@ class EvWorker < Formula
     To configure ev ci worker node, copy the example configuration to #{etc}/ev-worker.yaml
     and edit to taste.
 
-      $ cp #{libexec}/config/app.yaml.example #{etc}/ev-worker.yaml
+      $ cp #{etc}/app.yaml.example #{etc}/ev-worker.yaml
 
     In order to run worker manually execute the following:
 
