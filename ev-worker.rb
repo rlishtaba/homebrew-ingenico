@@ -1,9 +1,9 @@
 class EvWorker < Formula
   desc 'ev ci worker node'
   homepage 'http://artifactory.evf.us/artifactory'
-  url 'http://artifactory.evf.us/artifactory/automation-tools/bundles/ev-worker/1.11.0/package-170105021156.tar.gz'
-  sha256 '1420810b8e647fb25fd0289f97ec72bb00c109f8995dcdf6d68ef2e2ea07d396'
-  version '1.11.0'
+  url 'http://artifactory.evf.us/artifactory/automation-tools/bundles/ev-worker/1.11.1/package-170105165951.tar.gz'
+  sha256 'd28b7576efcc7b9c93759e120aa420074c3762d9f86472280782b0321e09e981'
+  version '1.11.1'
 
   def install
     ENV.deparallelize
