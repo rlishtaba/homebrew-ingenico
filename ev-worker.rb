@@ -10,7 +10,7 @@ class EvWorker < Formula
     libexec.install Dir['*']
     inreplace "#{libexec}/vendor/install/bin/ev-worker", 'pushd $APP_ROOT', "pushd #{libexec}"
     bin.install_symlink Dir["#{libexec}/vendor/install/bin/*"]
-    etc.install_symlink Dir["#{libexec}/config/app.yml.example"]
+    etc.install_symlink Dir["#{libexec}/config/app.yaml.example"]
   end
 
   def post_install
